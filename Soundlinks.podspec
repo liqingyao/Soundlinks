@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Soundlinks"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Soundlinks SDK"
 
 # This description is used to generate tags and improve search results.
@@ -31,21 +31,21 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
 # For Debug
-#  s.source_files = 'Pod/Classes/**/*.{h,m,mm}'
-#  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'Pod/Classes/**/*.{h,m,mm}'
+  s.public_header_files = 'Pod/Classes/**/*.h'
 
 # For Library
-  s.source_files = 'Pod/Classes/**/Soundlinks.h'
-  s.public_header_files = 'Pod/Classes/**/Soundlinks.h'
-  s.preserve_paths = 'Pod/Classes/**/libSoundlinks.a'
-  s.ios.vendored_library = 'Pod/Classes/**/libSoundlinks.a'
+#  s.source_files = 'Pod/Classes/**/Soundlinks.h'
+#  s.public_header_files = 'Pod/Classes/**/Soundlinks.h'
+#  s.preserve_paths = 'Pod/Classes/**/libSoundlinks.a'
+#  s.ios.vendored_library = 'Pod/Classes/**/libSoundlinks.a'
 
   s.frameworks = 'Foundation', 'QuartzCore', 'AudioToolbox', 'AVFoundation', 'UIKit'
 
-  # s.libraries = 'stdc++'
-  # s.resource_bundles = {
-  #    'Soundlinks' => ['Pod/Assets/*.png']
-  #  }
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.libraries = 'stdc++'
+# s.resource_bundles = {
+#    'Soundlinks' => ['Pod/Assets/*.png']
+#  }
+# s.dependency 'AFNetworking', '~> 2.3'
 
 end

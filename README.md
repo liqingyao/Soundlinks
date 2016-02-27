@@ -17,7 +17,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Init Soundlinks with Appid and Eventid.
 
 ```objectivec
-self.soundlinks = [[Soundlinks alloc] initWithAppid:@"qingting2016" eventid:@"qingting-huodong" andDelegate:self];
+Soundlinks *soundlinks = [[Soundlinks alloc] initWithAppid:@"appid" eventid:@"eventid" andDelegate:self];
 ```
 
 #### Start Soundlinks
@@ -25,7 +25,7 @@ self.soundlinks = [[Soundlinks alloc] initWithAppid:@"qingting2016" eventid:@"qi
 Start microphone and recording audio.
 
 ```objectivec
-[self.soundlinks startListeningContents];
+[soundlinks startListeningContents];
 ```
 
 #### Stop Soundlinks
@@ -33,7 +33,7 @@ Start microphone and recording audio.
 Stop microphone and no longer recording audio.
 
 ```objectivec
-[self.soundlinks stopListeningContents];
+[soundlinks stopListeningContents];
 ```
 #### Soundlinks Callback
 
@@ -43,25 +43,33 @@ When Soundlinks has listened some contents then callback is called. The returned
 - (void)soundlinks:(Soundlinks *)soundlinks listenContents:(NSArray *)contentArray {
     for (SLContent *content in contentArray) {
         NSLog(@"Succeed Get Content: %@ \n %@ \n %@ \n", content.title, content.url, content.image);
-        // To use content
+        // To do with the content
     }
 }
 ```
 
 #### Do not Forget
 
-Add `App Transport Security Setting` in Info.plist, and set `Allow Arbitrary Loads` to `YES`.
+Add **App Transport Security Setting** in `Info.plist`, and set **Allow Arbitrary Loads** to **YES**.
 
 ## Build Requirements
+
 **iOS**
+
 - 7.0+
 
 ## Frameworks
+
 **iOS**
+
 - Foundation
+
 - AudioToolbox
+
 - AVFoundation
+
 - UIKit
+
 - QuartzCore
 
 ## Installation
