@@ -1,0 +1,14 @@
+PODS:
+  - Soundlinks (0.1.1)
+
+DEPENDENCIES:
+  - Soundlinks (from `../`)
+
+EXTERNAL SOURCES:
+  Soundlinks:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Soundlinks: 56f89915e0b720c224e61beb165a24973c03e305
+
+COCOAPODS: 0.39.0

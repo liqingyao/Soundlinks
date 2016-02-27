@@ -1,0 +1,6 @@
+framework module Pods_Soundlinks_Example {
+  umbrella header "Pods-Soundlinks_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

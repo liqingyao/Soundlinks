@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Soundlinks_Example', :exclusive => true do
+  pod 'Soundlinks', :path => '../'
+end
+
+target 'Soundlinks_Tests', :exclusive => true do
+  pod 'Soundlinks', :path => '../'
+
+  
+end
