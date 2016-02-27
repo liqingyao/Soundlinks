@@ -7,7 +7,7 @@
 //
 
 #import "SLViewController.h"
-#import <Soundlinks.h>
+#import "Soundlinks.h"
 
 @interface SLViewController () <SoundlinksDelegate>
 

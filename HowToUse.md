@@ -4,7 +4,7 @@
 
 - source 查找路径为本地目录
 
-`s.source = { :git => "/Users/liqingyao/Documents/SourceTree/Soundlinks", :tag => s.version }`
+`s.source = { :git => "/Users/liqingyao/Documents/Bitbucket/Soundlinks", :tag => s.version }`
 
 - commit
 
