@@ -56,7 +56,7 @@ static int bufferCounter = 0;
     return self;
 }
 
-- (Soundlinks *)initWithAppid:(NSString *)appid eventid:(NSString *)eventid andDelegate:(id<SoundlinksDelegate>)delegate {
+- (Soundlinks *)initWithAppid:(NSString *)appid andEventid:(NSString *)eventid {
     
     self = [super init];
     
@@ -74,20 +74,17 @@ static int bufferCounter = 0;
         // Config identification of app and event
         self.appid = appid;
         self.eventid = eventid;
-        
-        // Set delegate
-        _delegate = delegate;
     }
     
     return self;
 }
 
-- (void)startListeningContents {
+- (void)enable {
     
     [self.microphone startFetchingAudio];
 }
 
-- (void)stopListeningContents {
+- (void)disable {
     
     [self.microphone stopFetchingAudio];
 }
