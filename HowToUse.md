@@ -22,6 +22,12 @@ git tag -a 0.1.0 -m 'v0.1.0'
 
 `pod package Soundlinks.podspec --library --force`
 
+- 测试
+
+cd /example 文件夹
+
+`pod install`
+
 
 ##### 2. 拷贝新的 .a 静态库到 Github 的 Soundlinks 工程 （用来正式发布新版本和示例程序）
 

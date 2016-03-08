@@ -17,7 +17,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Init Soundlinks with Appid and Eventid.
 
 ```objectivec
-Soundlinks *soundlinks = [[Soundlinks alloc] initWithAppid:@"appid" eventid:@"eventid" andDelegate:self];
+Soundlinks *soundlinks = [[Soundlinks alloc] initWithAppid:@"appid" andEventid:@"eventid"];
+soundlinks.delegate = self;
 ```
 
 #### Start Soundlinks
@@ -25,7 +26,7 @@ Soundlinks *soundlinks = [[Soundlinks alloc] initWithAppid:@"appid" eventid:@"ev
 Start microphone and recording audio.
 
 ```objectivec
-[soundlinks startListeningContents];
+[soundlinks enable];
 ```
 
 #### Stop Soundlinks
@@ -33,7 +34,7 @@ Start microphone and recording audio.
 Stop microphone and no longer recording audio.
 
 ```objectivec
-[soundlinks stopListeningContents];
+[soundlinks disable];
 ```
 #### Soundlinks Callback
 

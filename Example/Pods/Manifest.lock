@@ -1,5 +1,5 @@
 PODS:
-  - Soundlinks (0.1.2)
+  - Soundlinks (0.1.3)
 
 DEPENDENCIES:
   - Soundlinks (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Soundlinks: 5ae220471ab8348c885a90e3d0ae8ec8f4436731
+  Soundlinks: 5669efa01442a8165634a684bd9364302dd141a4
 
 COCOAPODS: 0.39.0
