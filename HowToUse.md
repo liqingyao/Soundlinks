@@ -33,7 +33,7 @@ cd /example 文件夹
 
 - source 查找路径为 github 对应地址
 
-`s.source = { :git => "https:/github.com/liqingyao/Soundlinks/git", :tag => s.version }`
+`s.source = { :git => "https://github.com/liqingyao/Soundlinks.git", :tag => s.version }`
 
 - 把新的 .a 静态库替换原来的
 
@@ -41,11 +41,13 @@ cd /example 文件夹
 
 - 更新 Example 及注释
 
-- 提交源代码到 Github commit & push & push --tags
+- `pod install`
 
 - 验证 podspec 是否符合 pod 要求
 
 `pod spec lint Soundlinks.podspec`
+
+- 提交源代码到 Github commit & push & push --tags
 
 - 提交 podspec 到 CocoaPods
 

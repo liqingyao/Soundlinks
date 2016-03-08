@@ -113,7 +113,7 @@ static int bufferCounter = 0;
                 if (!jsonDic) {
                     DebugLog(@"Error JSON Parse");
                 } else if (resultArray) {
-                    //DebugLog(@"Succeed Get Content: %@", resultArray);
+                    DebugLog(@"Succeed Get Content: %@", resultArray);
                     
                     NSMutableArray *contentArray = [[NSMutableArray alloc] init];
                     
