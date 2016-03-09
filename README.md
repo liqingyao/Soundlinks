@@ -17,6 +17,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 In `AppDelegate` init Soundlinks with Appid and Eventid.
 
 ```objectivec
+#import "Soundlinks.h"
+
 [Soundlinks setAppID:@"appid" andEventId:@"eventid"];
 ```
 
@@ -25,8 +27,21 @@ In `AppDelegate` init Soundlinks with Appid and Eventid.
 In `ViewDidLoad` set delegate and start microphone to record audio.
 
 ```objectivec
-[Soundlinks setDelegate:self];
-[Soundlinks enable];
+#import "Soundlinks.h"
+
+@interface SLViewController () <SoundlinksDelegate>
+
+@end
+
+@implementation SLViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    // Set delegate and enable Soundlinks
+    [Soundlinks setDelegate:self];
+    [Soundlinks enable];
+}
 ```
 
 #### Stop Soundlinks
