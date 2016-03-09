@@ -30,15 +30,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-# For Debug
-#  s.source_files = 'Pod/Classes/**/*.{h,m,mm}'
-#  s.public_header_files = 'Pod/Classes/**/*.h'
-
 # For Library
-  s.source_files = 'Pod/Classes/**/Soundlinks.h'
-  s.public_header_files = 'Pod/Classes/**/Soundlinks.h'
-  s.preserve_paths = 'Pod/Classes/**/libSoundlinks.a'
-  s.ios.vendored_library = 'Pod/Classes/**/libSoundlinks.a'
+  s.source_files = 'Pod/Classes/Soundlinks.h'
+  s.public_header_files = 'Pod/Classes/Soundlinks.h'
+  s.preserve_paths = 'Pod/Classes/libSoundlinks.a'
+  s.ios.vendored_library = 'Pod/Classes/libSoundlinks.a'
 
   s.frameworks = 'Foundation', 'QuartzCore', 'AudioToolbox', 'AVFoundation', 'UIKit'
 
