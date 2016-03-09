@@ -27,14 +27,39 @@
 @property (strong,nonatomic) NSString *appid;
 @property (strong,nonatomic) NSString *eventid;
 
++ (instancetype)sharedInstance;
+
 @end
 
 @implementation Soundlinks
 
 static int bufferCounter = 0;
 
-- (void)dealloc {
-    // Free memory
++ (Soundlinks *)sharedInstance {
+    
+    static dispatch_once_t onceToken;
+    static Soundlinks *soundlinks;
+    
+    dispatch_once(&onceToken, ^{
+        soundlinks = [[Soundlinks alloc] init];
+    });
+    return soundlinks;
+}
+
++ (void)setAppID:(NSString *)appid andEventId:(NSString *)eventid {
+    
+    [Soundlinks sharedInstance].appid = appid;
+    [Soundlinks sharedInstance].eventid = eventid;
+}
+
++ (void)enable {
+    
+    [[Soundlinks sharedInstance].microphone startFetchingAudio];
+}
+
++ (void)disable {
+    
+    [[Soundlinks sharedInstance].microphone stopFetchingAudio];
 }
 
 - (id)init {
@@ -54,39 +79,6 @@ static int bufferCounter = 0;
     }
     
     return self;
-}
-
-- (Soundlinks *)initWithAppid:(NSString *)appid andEventid:(NSString *)eventid {
-    
-    self = [super init];
-    
-    if(self) {
-        
-        // Active an audio session
-        AVAudioSession *session = [AVAudioSession sharedInstance];
-        NSError *error;
-        [session setCategory:AVAudioSessionCategoryPlayAndRecord error:&error];
-        [session setActive:YES error:&error];
-        
-        // Init an instance of SLMicrophone and set delegate
-        self.microphone = [[SLMicrophone alloc] initWithMicrophoneDelegate:self];
-        
-        // Config identification of app and event
-        self.appid = appid;
-        self.eventid = eventid;
-    }
-    
-    return self;
-}
-
-- (void)enable {
-    
-    [self.microphone startFetchingAudio];
-}
-
-- (void)disable {
-    
-    [self.microphone stopFetchingAudio];
 }
 
 - (void)    microphone:(SLMicrophone *)microphone
