@@ -18,9 +18,9 @@
   "requires_arc": true,
   "source_files": "Pod/Classes/Soundlinks.h",
   "public_header_files": "Pod/Classes/Soundlinks.h",
-  "preserve_paths": "Frameworks/libSoundlinks.a",
+  "preserve_paths": "Pod/Classes/libSoundlinks.a",
   "ios": {
-    "vendored_libraries": "Frameworks/libSoundlinks.a"
+    "vendored_libraries": "Pod/Classes/libSoundlinks.a"
   },
   "frameworks": [
     "Foundation",

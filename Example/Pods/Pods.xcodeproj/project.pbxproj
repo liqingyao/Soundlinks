@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		01AF49A0083453EFE4AF81541FBCCD68 /* Pods-Soundlinks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Soundlinks_Tests-dummy.m"; sourceTree = "<group>"; };
 		0E4B61908012C128C8C3A0451726E4B9 /* Pods-Soundlinks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Soundlinks_Example-umbrella.h"; sourceTree = "<group>"; };
-		14D6464E0C0A56DBE791F54C6DA8289B /* Soundlinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Soundlinks.h; sourceTree = "<group>"; };
+		17CB1A03EC89AF689C821E1E51BAE4A3 /* Soundlinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Soundlinks.h; sourceTree = "<group>"; };
 		1DF28100058DA2FEE0B789DD337A834A /* Pods-Soundlinks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Soundlinks_Tests.modulemap"; sourceTree = "<group>"; };
 		2B963553B5EE57C33D6BCD78168FAE79 /* Pods-Soundlinks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Soundlinks_Example.modulemap"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -40,6 +40,7 @@
 		C583D5163FE1AD3793D5518D1F0D8317 /* Pods-Soundlinks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Soundlinks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA385F669418D4BA0538BD8CC3F76EC8 /* Pods-Soundlinks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundlinks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F12419F46865CF1EBFAEBC5711E2E4B6 /* Pods-Soundlinks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundlinks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F88BF9E70EB007469DBC3CE787E21F67 /* libSoundlinks.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSoundlinks.a; path = Pod/Classes/libSoundlinks.a; sourceTree = "<group>"; };
 		FC51FAAE2E3075B1EB93B7349370F86A /* Pods-Soundlinks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Soundlinks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0780770C03E17491D2A34EDD8A4F784A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88BF9E70EB007469DBC3CE787E21F67 /* libSoundlinks.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25CEB755A93E9F50C8DDDC127D998485 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,20 +81,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2A14EDE932409A9EEE611AC8DAF413CB /* Development Pods */ = {
+		61E040C852F318BD021832E33E28D1C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98B1A10172BEB7FF24B64B4FC2372685 /* Soundlinks */,
+				A7CD3DAF7599968C9517E0CDE5EC97FD /* Soundlinks */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2B56B88882C01FE12757905FF46972C7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				14D6464E0C0A56DBE791F54C6DA8289B /* Soundlinks.h */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		6F21AB41170D83A100984474EE58488D /* Products */ = {
@@ -101,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				2A14EDE932409A9EEE611AC8DAF413CB /* Development Pods */,
+				61E040C852F318BD021832E33E28D1C0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6F21AB41170D83A100984474EE58488D /* Products */,
 				25CEB755A93E9F50C8DDDC127D998485 /* Targets Support Files */,
@@ -126,10 +127,19 @@
 			path = "Target Support Files/Pods-Soundlinks_Example";
 			sourceTree = "<group>";
 		};
-		98B1A10172BEB7FF24B64B4FC2372685 /* Soundlinks */ = {
+		A361F525EAC9B20AB92582E98A71B1D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF7FBDA8E14ABE3813C7974F19068DC7 /* Pod */,
+				17CB1A03EC89AF689C821E1E51BAE4A3 /* Soundlinks.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7CD3DAF7599968C9517E0CDE5EC97FD /* Soundlinks */ = {
+			isa = PBXGroup;
+			children = (
+				0780770C03E17491D2A34EDD8A4F784A /* Frameworks */,
+				DAA3E870A723BECE1E4C8E25496533F6 /* Pod */,
 			);
 			name = Soundlinks;
 			path = ../..;
@@ -169,10 +179,10 @@
 			path = "Target Support Files/Pods-Soundlinks_Tests";
 			sourceTree = "<group>";
 		};
-		EF7FBDA8E14ABE3813C7974F19068DC7 /* Pod */ = {
+		DAA3E870A723BECE1E4C8E25496533F6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2B56B88882C01FE12757905FF46972C7 /* Classes */,
+				A361F525EAC9B20AB92582E98A71B1D9 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
