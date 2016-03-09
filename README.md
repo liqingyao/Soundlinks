@@ -14,19 +14,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 #### Init Soundlinks
 
-Init Soundlinks with Appid and Eventid.
+In `AppDelegate` init Soundlinks with Appid and Eventid.
 
 ```objectivec
-Soundlinks *soundlinks = [[Soundlinks alloc] initWithAppid:@"appid" andEventid:@"eventid"];
-soundlinks.delegate = self;
+[Soundlinks setAppID:@"appid" andEventId:@"eventid"];
 ```
 
 #### Start Soundlinks
 
-Start microphone and recording audio.
+In `ViewDidLoad` set delegate and start microphone to record audio.
 
 ```objectivec
-[soundlinks enable];
+[Soundlinks setDelegate:self];
+[Soundlinks enable];
 ```
 
 #### Stop Soundlinks
@@ -34,7 +34,7 @@ Start microphone and recording audio.
 Stop microphone and no longer recording audio.
 
 ```objectivec
-[soundlinks disable];
+[Soundlinks disable];
 ```
 #### Soundlinks Callback
 

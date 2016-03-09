@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     
-    // Start Soundlinks by calling startListeningContents
+    // Set delegate and enable Soundlinks
     [Soundlinks setDelegate:self];
     [Soundlinks enable];
 }

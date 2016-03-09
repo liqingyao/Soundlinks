@@ -7,144 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CE271DA3FB05E47D8BECED1C8F1E427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1CBE7372069857EC94062113CFCCCC /* Foundation.framework */; };
-		1631B2A4753702A64612AC1714B7E331 /* SLAlgorithm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D3AFEADC21871D8732DD9295434B3 /* SLAlgorithm.mm */; };
-		1995B318ABE13D4222DC0B9AE0A4CDA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1CBE7372069857EC94062113CFCCCC /* Foundation.framework */; };
-		3107BAFEDFF27C127DD58D38E8EACB85 /* SLMicrophoneUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C187382CA085FCD9ABC71E73F788B5A /* SLMicrophoneUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3735E4A63287D271579C510D18A307DC /* Soundlinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F6D77B37F2EC2BA0B6CB3192BE6A45 /* Soundlinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FFC3C37ED4CC461450C87811A18EB26 /* Pods-Soundlinks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4B61908012C128C8C3A0451726E4B9 /* Pods-Soundlinks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69E4920E694984D91133ADF33A93D1A7 /* SLMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD121B66A0F2068D4310FA867D3A5C1 /* SLMicrophone.m */; };
-		7490C8496C21211CFAADEBBC20FEEA0A /* SLMicrophoneFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8838795819EDE7529F6272CDA46BC3 /* SLMicrophoneFloatConverter.m */; };
-		780C296C882181CB6C76BC66B6B3F0AE /* Soundlinks.m in Sources */ = {isa = PBXBuildFile; fileRef = F062F83B0C78E788A8391AC18869571A /* Soundlinks.m */; };
-		90240F50F16AC7F8BC377C49DEE54C4A /* Soundlinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E2BBD3E2A2B6039B470313BD6C826 /* Soundlinks-dummy.m */; };
-		99464391AB54EDBBD25FB05CDD86CBCE /* Soundlinks.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D2538CA7E7B414F6ECE0DCB752F6DC /* Soundlinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A43A2AFA3A16BB442BC3AA1C0CDC5E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BFEE3C1A07D9D1D9E6D17DCD0FCBAB /* AVFoundation.framework */; };
-		9CD71F8CC1A32A6F07CCF19A05A42760 /* Pods-Soundlinks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C031A96A658C546299C5E8FE51349 /* Pods-Soundlinks_Example-dummy.m */; };
-		A9EB7C46BB23EF95508EB28BB419BF7E /* SLAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1903E163F33B833EBADD921DB10219FC /* SLAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1B6088B162E5BC9609FDA1ECEFE4462 /* SLMicrophone.h in Headers */ = {isa = PBXBuildFile; fileRef = 145E163570A7E9E45591CCD774D2610B /* SLMicrophone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4B51AF1BC70200633DA401D5361AD06 /* SLMicrophoneUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D516E80FB58B8A33D907744630CE651 /* SLMicrophoneUtilities.m */; };
-		BA509A22FC5FDAE9AF50B2F5A8B2FA4D /* Pods-Soundlinks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AF49A0083453EFE4AF81541FBCCD68 /* Pods-Soundlinks_Tests-dummy.m */; };
-		CADA20D16DBB5B6564182C7A1F875EFE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B77DC441DB4EF170AC1090D5EE2FDF2 /* AudioToolbox.framework */; };
-		D1D85BFADE6D817BEAC6E64C728E9D70 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EAF81E7B9B2B4AE074A1366AF38C1A /* QuartzCore.framework */; };
-		D51040AD780CA4CBFB2A66A237BAD15C /* Pods-Soundlinks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC5E43604DEEFD7008AA70EFB8457FF /* Pods-Soundlinks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D702FD5918B47C80F6518E7897C22A48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B78E828199BEC0094914F5C5BBA1F13 /* UIKit.framework */; };
-		D8782B9BCECCCD650E414B8DED0BAB7E /* SLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDFA9C0A16FA65E8D365B47404480DC /* SLNetwork.m */; };
-		DC25DE147560C53CEA5DE265B54060F1 /* SLMicrophoneFloatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C29500647710DD4841CD479717CB58 /* SLMicrophoneFloatConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD449BB1A5F80526BE95750A44413741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1CBE7372069857EC94062113CFCCCC /* Foundation.framework */; };
-		E107EA39CF3CBD710B4B0875627F709D /* SLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 532F6FEE97F780275A4FE3E00A1C02D0 /* SLNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D94D8DBE98C13675A911828B0B8C643 /* Pods-Soundlinks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4B61908012C128C8C3A0451726E4B9 /* Pods-Soundlinks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1334E868CA740DBA174DCF8BFCB4A584 /* Pods-Soundlinks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C031A96A658C546299C5E8FE51349 /* Pods-Soundlinks_Example-dummy.m */; };
+		19198348AE43EB18E2C0B4BAEB24F863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		43CD55996C4E13029843348A0E96109C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		686DB0A6EFA08AB0E4116386BAB4F77C /* Pods-Soundlinks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AF49A0083453EFE4AF81541FBCCD68 /* Pods-Soundlinks_Tests-dummy.m */; };
+		F7F8C68B1EA4C1458F9A0E6F55A4D04F /* Pods-Soundlinks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC5E43604DEEFD7008AA70EFB8457FF /* Pods-Soundlinks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1F2E6BC8EBFD0435D736772CE79F1B66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 85E698A812186BB5CA606494DE49D42D;
-			remoteInfo = Soundlinks;
-		};
-		FD772DFAAC55FF7FBAE896F595E2A5A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 85E698A812186BB5CA606494DE49D42D;
-			remoteInfo = Soundlinks;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01AF49A0083453EFE4AF81541FBCCD68 /* Pods-Soundlinks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Soundlinks_Tests-dummy.m"; sourceTree = "<group>"; };
-		0A8EC6EAF714E747D94B81F12CA17701 /* Soundlinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Soundlinks-prefix.pch"; sourceTree = "<group>"; };
-		0AD4184C8F0DD8A954D8AF2755A042E6 /* Soundlinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Soundlinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4B61908012C128C8C3A0451726E4B9 /* Pods-Soundlinks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Soundlinks_Example-umbrella.h"; sourceTree = "<group>"; };
-		145E163570A7E9E45591CCD774D2610B /* SLMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLMicrophone.h; sourceTree = "<group>"; };
-		1903E163F33B833EBADD921DB10219FC /* SLAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLAlgorithm.h; sourceTree = "<group>"; };
-		1C1CBE7372069857EC94062113CFCCCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		17CB1A03EC89AF689C821E1E51BAE4A3 /* Soundlinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Soundlinks.h; sourceTree = "<group>"; };
 		1DF28100058DA2FEE0B789DD337A834A /* Pods-Soundlinks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Soundlinks_Tests.modulemap"; sourceTree = "<group>"; };
-		2B78E828199BEC0094914F5C5BBA1F13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2B963553B5EE57C33D6BCD78168FAE79 /* Pods-Soundlinks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Soundlinks_Example.modulemap"; sourceTree = "<group>"; };
-		3D8D3AFEADC21871D8732DD9295434B3 /* SLAlgorithm.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SLAlgorithm.mm; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4026F0DE1A52BA2A07B8B7CE3056AA35 /* Pods-Soundlinks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soundlinks_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4783F47A5442425CADC18F02CA2E3494 /* Pods-Soundlinks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Soundlinks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48DC40E0D994C9CBE4A4D0DB63F62160 /* Pods-Soundlinks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soundlinks_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4C187382CA085FCD9ABC71E73F788B5A /* SLMicrophoneUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLMicrophoneUtilities.h; sourceTree = "<group>"; };
 		4D1C031A96A658C546299C5E8FE51349 /* Pods-Soundlinks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Soundlinks_Example-dummy.m"; sourceTree = "<group>"; };
-		532F6FEE97F780275A4FE3E00A1C02D0 /* SLNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLNetwork.h; sourceTree = "<group>"; };
-		5839D69F3F378D5900874162B44E5C1B /* Soundlinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Soundlinks.xcconfig; sourceTree = "<group>"; };
 		5CB64670A3CA46EE347DCB2E8BA09F00 /* Pods-Soundlinks_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soundlinks_Example-resources.sh"; sourceTree = "<group>"; };
+		619FDCA29F730AFE356223EDCA8CADB6 /* Pods_Soundlinks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundlinks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A354FDC53DEE7567358E83B46F8E24 /* Pods-Soundlinks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundlinks_Example.release.xcconfig"; sourceTree = "<group>"; };
-		65BFEE3C1A07D9D1D9E6D17DCD0FCBAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		67C29500647710DD4841CD479717CB58 /* SLMicrophoneFloatConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLMicrophoneFloatConverter.h; sourceTree = "<group>"; };
-		68EAF81E7B9B2B4AE074A1366AF38C1A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6ED20C41E7E88DEF2B1A6C5292997595 /* Pods_Soundlinks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundlinks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		771990C5543664D8A40C5CE27E31C912 /* Pods-Soundlinks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Soundlinks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B77DC441DB4EF170AC1090D5EE2FDF2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		7E744036FAF5DABCABB882601740C5D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83E0E1B736EF4A9649CC084D2DC47397 /* Pods_Soundlinks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundlinks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		885E2BBD3E2A2B6039B470313BD6C826 /* Soundlinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Soundlinks-dummy.m"; sourceTree = "<group>"; };
-		8D516E80FB58B8A33D907744630CE651 /* SLMicrophoneUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLMicrophoneUtilities.m; sourceTree = "<group>"; };
 		906071A10003B04B078B4235DDC187BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9651E148345D74033D90D29781F82369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E8838795819EDE7529F6272CDA46BC3 /* SLMicrophoneFloatConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLMicrophoneFloatConverter.m; sourceTree = "<group>"; };
 		9F990A068C497A2F37BB9D88B8444434 /* Pods-Soundlinks_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soundlinks_Tests-resources.sh"; sourceTree = "<group>"; };
 		AEC5E43604DEEFD7008AA70EFB8457FF /* Pods-Soundlinks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Soundlinks_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B3128C7AF0A5015CC981D57C794DC104 /* Pods-Soundlinks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundlinks_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C583D5163FE1AD3793D5518D1F0D8317 /* Pods-Soundlinks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Soundlinks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7D2538CA7E7B414F6ECE0DCB752F6DC /* Soundlinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Soundlinks.h; sourceTree = "<group>"; };
 		CA385F669418D4BA0538BD8CC3F76EC8 /* Pods-Soundlinks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundlinks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CBD121B66A0F2068D4310FA867D3A5C1 /* SLMicrophone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLMicrophone.m; sourceTree = "<group>"; };
-		DBDFA9C0A16FA65E8D365B47404480DC /* SLNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLNetwork.m; sourceTree = "<group>"; };
-		F062F83B0C78E788A8391AC18869571A /* Soundlinks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Soundlinks.m; sourceTree = "<group>"; };
-		F0F6D77B37F2EC2BA0B6CB3192BE6A45 /* Soundlinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Soundlinks-umbrella.h"; sourceTree = "<group>"; };
 		F12419F46865CF1EBFAEBC5711E2E4B6 /* Pods-Soundlinks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Soundlinks_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F7788F2FA1CFC738CA6CD5D47CDE9FE1 /* Soundlinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Soundlinks.modulemap; sourceTree = "<group>"; };
-		FB5D9617A1E786FDCB89A3123B56F4DC /* Pods_Soundlinks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundlinks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88BF9E70EB007469DBC3CE787E21F67 /* libSoundlinks.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSoundlinks.a; path = Pod/Classes/libSoundlinks.a; sourceTree = "<group>"; };
 		FC51FAAE2E3075B1EB93B7349370F86A /* Pods-Soundlinks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Soundlinks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A4BBB917DF8E88AD7942E28648D828D /* Frameworks */ = {
+		A595527DCDF535D172F06C900328AB73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CE271DA3FB05E47D8BECED1C8F1E427 /* Foundation.framework in Frameworks */,
+				43CD55996C4E13029843348A0E96109C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D7A17BD0DD6AEC288CFED237AC1C9B7 /* Frameworks */ = {
+		BAD8998C56432DC27DAA8895615E30D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1995B318ABE13D4222DC0B9AE0A4CDA2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E5B2C23EF15B8C044C9BDC99A6B02A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CADA20D16DBB5B6564182C7A1F875EFE /* AudioToolbox.framework in Frameworks */,
-				9A43A2AFA3A16BB442BC3AA1C0CDC5E2 /* AVFoundation.framework in Frameworks */,
-				DD449BB1A5F80526BE95750A44413741 /* Foundation.framework in Frameworks */,
-				D1D85BFADE6D817BEAC6E64C728E9D70 /* QuartzCore.framework in Frameworks */,
-				D702FD5918B47C80F6518E7897C22A48 /* UIKit.framework in Frameworks */,
+				19198348AE43EB18E2C0B4BAEB24F863 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0818C3F9B55A31DAF46EAE2A5E4A113C /* Pod */ = {
+		0780770C03E17491D2A34EDD8A4F784A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6A945F5FC12FD82D04F2487ACF60588 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CEFA485B8201129431BD5BEDADD037A8 /* iOS */,
+				F88BF9E70EB007469DBC3CE787E21F67 /* libSoundlinks.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,23 +84,18 @@
 		61E040C852F318BD021832E33E28D1C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FF10559FC1E4D93611818322A35BCA1D /* Soundlinks */,
+				A7CD3DAF7599968C9517E0CDE5EC97FD /* Soundlinks */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6CF81520E92E3995A601AB0EC62C8DB3 /* Support Files */ = {
+		6F21AB41170D83A100984474EE58488D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9651E148345D74033D90D29781F82369 /* Info.plist */,
-				F7788F2FA1CFC738CA6CD5D47CDE9FE1 /* Soundlinks.modulemap */,
-				5839D69F3F378D5900874162B44E5C1B /* Soundlinks.xcconfig */,
-				885E2BBD3E2A2B6039B470313BD6C826 /* Soundlinks-dummy.m */,
-				0A8EC6EAF714E747D94B81F12CA17701 /* Soundlinks-prefix.pch */,
-				F0F6D77B37F2EC2BA0B6CB3192BE6A45 /* Soundlinks-umbrella.h */,
+				6ED20C41E7E88DEF2B1A6C5292997595 /* Pods_Soundlinks_Example.framework */,
+				619FDCA29F730AFE356223EDCA8CADB6 /* Pods_Soundlinks_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Soundlinks";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -185,8 +103,8 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				61E040C852F318BD021832E33E28D1C0 /* Development Pods */,
-				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				DA778A4F30FBB57F1C7136EB644997EA /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6F21AB41170D83A100984474EE58488D /* Products */,
 				25CEB755A93E9F50C8DDDC127D998485 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -209,23 +127,38 @@
 			path = "Target Support Files/Pods-Soundlinks_Example";
 			sourceTree = "<group>";
 		};
-		C6A945F5FC12FD82D04F2487ACF60588 /* Classes */ = {
+		A361F525EAC9B20AB92582E98A71B1D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1903E163F33B833EBADD921DB10219FC /* SLAlgorithm.h */,
-				3D8D3AFEADC21871D8732DD9295434B3 /* SLAlgorithm.mm */,
-				145E163570A7E9E45591CCD774D2610B /* SLMicrophone.h */,
-				CBD121B66A0F2068D4310FA867D3A5C1 /* SLMicrophone.m */,
-				67C29500647710DD4841CD479717CB58 /* SLMicrophoneFloatConverter.h */,
-				9E8838795819EDE7529F6272CDA46BC3 /* SLMicrophoneFloatConverter.m */,
-				4C187382CA085FCD9ABC71E73F788B5A /* SLMicrophoneUtilities.h */,
-				8D516E80FB58B8A33D907744630CE651 /* SLMicrophoneUtilities.m */,
-				532F6FEE97F780275A4FE3E00A1C02D0 /* SLNetwork.h */,
-				DBDFA9C0A16FA65E8D365B47404480DC /* SLNetwork.m */,
-				C7D2538CA7E7B414F6ECE0DCB752F6DC /* Soundlinks.h */,
-				F062F83B0C78E788A8391AC18869571A /* Soundlinks.m */,
+				17CB1A03EC89AF689C821E1E51BAE4A3 /* Soundlinks.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7CD3DAF7599968C9517E0CDE5EC97FD /* Soundlinks */ = {
+			isa = PBXGroup;
+			children = (
+				0780770C03E17491D2A34EDD8A4F784A /* Frameworks */,
+				DAA3E870A723BECE1E4C8E25496533F6 /* Pod */,
+			);
+			name = Soundlinks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C724AC73FEE2F8515BA13E70BEF692A7 /* Pods-Soundlinks_Tests */ = {
@@ -246,125 +179,68 @@
 			path = "Target Support Files/Pods-Soundlinks_Tests";
 			sourceTree = "<group>";
 		};
-		CEFA485B8201129431BD5BEDADD037A8 /* iOS */ = {
+		DAA3E870A723BECE1E4C8E25496533F6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7B77DC441DB4EF170AC1090D5EE2FDF2 /* AudioToolbox.framework */,
-				65BFEE3C1A07D9D1D9E6D17DCD0FCBAB /* AVFoundation.framework */,
-				1C1CBE7372069857EC94062113CFCCCC /* Foundation.framework */,
-				68EAF81E7B9B2B4AE074A1366AF38C1A /* QuartzCore.framework */,
-				2B78E828199BEC0094914F5C5BBA1F13 /* UIKit.framework */,
+				A361F525EAC9B20AB92582E98A71B1D9 /* Classes */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DA778A4F30FBB57F1C7136EB644997EA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83E0E1B736EF4A9649CC084D2DC47397 /* Pods_Soundlinks_Example.framework */,
-				FB5D9617A1E786FDCB89A3123B56F4DC /* Pods_Soundlinks_Tests.framework */,
-				0AD4184C8F0DD8A954D8AF2755A042E6 /* Soundlinks.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FF10559FC1E4D93611818322A35BCA1D /* Soundlinks */ = {
-			isa = PBXGroup;
-			children = (
-				0818C3F9B55A31DAF46EAE2A5E4A113C /* Pod */,
-				6CF81520E92E3995A601AB0EC62C8DB3 /* Support Files */,
-			);
-			name = Soundlinks;
-			path = ../..;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03532C557F3D176FFF32F137D8F52035 /* Headers */ = {
+		5D198A653F0CD71EF668CEF80ADE96A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9EB7C46BB23EF95508EB28BB419BF7E /* SLAlgorithm.h in Headers */,
-				B1B6088B162E5BC9609FDA1ECEFE4462 /* SLMicrophone.h in Headers */,
-				DC25DE147560C53CEA5DE265B54060F1 /* SLMicrophoneFloatConverter.h in Headers */,
-				3107BAFEDFF27C127DD58D38E8EACB85 /* SLMicrophoneUtilities.h in Headers */,
-				E107EA39CF3CBD710B4B0875627F709D /* SLNetwork.h in Headers */,
-				3735E4A63287D271579C510D18A307DC /* Soundlinks-umbrella.h in Headers */,
-				99464391AB54EDBBD25FB05CDD86CBCE /* Soundlinks.h in Headers */,
+				0D94D8DBE98C13675A911828B0B8C643 /* Pods-Soundlinks_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D0C5EEDE4FB7762A8C9B4B06B26FA8B /* Headers */ = {
+		FE9189C9C1E40986C61AE9B72D5D5CAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFC3C37ED4CC461450C87811A18EB26 /* Pods-Soundlinks_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96A1AEA3541DE7B362730A8C9BFF554C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D51040AD780CA4CBFB2A66A237BAD15C /* Pods-Soundlinks_Tests-umbrella.h in Headers */,
+				F7F8C68B1EA4C1458F9A0E6F55A4D04F /* Pods-Soundlinks_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		64B33815026F27A035B0EDA57723C01B /* Pods-Soundlinks_Example */ = {
+		8989567C404BD18882794797ADAB21D6 /* Pods-Soundlinks_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D669D330E745A7F21C9F566D1B81B6D2 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Example" */;
+			buildConfigurationList = B70FE0F867133B34912C617E05287FD3 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Tests" */;
 			buildPhases = (
-				6B9CBF3DB2D7EA8894577BFD6A1498B6 /* Sources */,
-				0D7A17BD0DD6AEC288CFED237AC1C9B7 /* Frameworks */,
-				7D0C5EEDE4FB7762A8C9B4B06B26FA8B /* Headers */,
+				491B4378E6AE2DE377EB75C118212C86 /* Sources */,
+				BAD8998C56432DC27DAA8895615E30D8 /* Frameworks */,
+				FE9189C9C1E40986C61AE9B72D5D5CAA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC974CA4BF11AED0F1AB3C77326E6C52 /* PBXTargetDependency */,
-			);
-			name = "Pods-Soundlinks_Example";
-			productName = "Pods-Soundlinks_Example";
-			productReference = 83E0E1B736EF4A9649CC084D2DC47397 /* Pods_Soundlinks_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		85E698A812186BB5CA606494DE49D42D /* Soundlinks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27E29BB83E1A2BE88E967FBD51E2B8E4 /* Build configuration list for PBXNativeTarget "Soundlinks" */;
-			buildPhases = (
-				F97BF6A78D7C19F6B7B4ACE067030EF4 /* Sources */,
-				3E5B2C23EF15B8C044C9BDC99A6B02A4 /* Frameworks */,
-				03532C557F3D176FFF32F137D8F52035 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Soundlinks;
-			productName = Soundlinks;
-			productReference = 0AD4184C8F0DD8A954D8AF2755A042E6 /* Soundlinks.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BB18F3BEF4188EC10580BFCAA73D8FBC /* Pods-Soundlinks_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 568A43AA52567B00DD7369E14812DC28 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Tests" */;
-			buildPhases = (
-				E1E10EEAB6805AC7F0C67323B69C701D /* Sources */,
-				0A4BBB917DF8E88AD7942E28648D828D /* Frameworks */,
-				96A1AEA3541DE7B362730A8C9BFF554C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C477A2D96F70181D776EC67C3F47CB8A /* PBXTargetDependency */,
 			);
 			name = "Pods-Soundlinks_Tests";
 			productName = "Pods-Soundlinks_Tests";
-			productReference = FB5D9617A1E786FDCB89A3123B56F4DC /* Pods_Soundlinks_Tests.framework */;
+			productReference = 619FDCA29F730AFE356223EDCA8CADB6 /* Pods_Soundlinks_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBB59C3E14826BE0328A4A7828D1CF58 /* Pods-Soundlinks_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B35CB92F98A0E427C7A62C4AEE4B01 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Example" */;
+			buildPhases = (
+				5CFF30CDE0DE7CE644632236FE4A5861 /* Sources */,
+				A595527DCDF535D172F06C900328AB73 /* Frameworks */,
+				5D198A653F0CD71EF668CEF80ADE96A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Soundlinks_Example";
+			productName = "Pods-Soundlinks_Example";
+			productReference = 6ED20C41E7E88DEF2B1A6C5292997595 /* Pods_Soundlinks_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -384,64 +260,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DA778A4F30FBB57F1C7136EB644997EA /* Products */;
+			productRefGroup = 6F21AB41170D83A100984474EE58488D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64B33815026F27A035B0EDA57723C01B /* Pods-Soundlinks_Example */,
-				BB18F3BEF4188EC10580BFCAA73D8FBC /* Pods-Soundlinks_Tests */,
-				85E698A812186BB5CA606494DE49D42D /* Soundlinks */,
+				EBB59C3E14826BE0328A4A7828D1CF58 /* Pods-Soundlinks_Example */,
+				8989567C404BD18882794797ADAB21D6 /* Pods-Soundlinks_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B9CBF3DB2D7EA8894577BFD6A1498B6 /* Sources */ = {
+		491B4378E6AE2DE377EB75C118212C86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD71F8CC1A32A6F07CCF19A05A42760 /* Pods-Soundlinks_Example-dummy.m in Sources */,
+				686DB0A6EFA08AB0E4116386BAB4F77C /* Pods-Soundlinks_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1E10EEAB6805AC7F0C67323B69C701D /* Sources */ = {
+		5CFF30CDE0DE7CE644632236FE4A5861 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA509A22FC5FDAE9AF50B2F5A8B2FA4D /* Pods-Soundlinks_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F97BF6A78D7C19F6B7B4ACE067030EF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1631B2A4753702A64612AC1714B7E331 /* SLAlgorithm.mm in Sources */,
-				69E4920E694984D91133ADF33A93D1A7 /* SLMicrophone.m in Sources */,
-				7490C8496C21211CFAADEBBC20FEEA0A /* SLMicrophoneFloatConverter.m in Sources */,
-				B4B51AF1BC70200633DA401D5361AD06 /* SLMicrophoneUtilities.m in Sources */,
-				D8782B9BCECCCD650E414B8DED0BAB7E /* SLNetwork.m in Sources */,
-				90240F50F16AC7F8BC377C49DEE54C4A /* Soundlinks-dummy.m in Sources */,
-				780C296C882181CB6C76BC66B6B3F0AE /* Soundlinks.m in Sources */,
+				1334E868CA740DBA174DCF8BFCB4A584 /* Pods-Soundlinks_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C477A2D96F70181D776EC67C3F47CB8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Soundlinks;
-			target = 85E698A812186BB5CA606494DE49D42D /* Soundlinks */;
-			targetProxy = 1F2E6BC8EBFD0435D736772CE79F1B66 /* PBXContainerItemProxy */;
-		};
-		CC974CA4BF11AED0F1AB3C77326E6C52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Soundlinks;
-			target = 85E698A812186BB5CA606494DE49D42D /* Soundlinks */;
-			targetProxy = FD772DFAAC55FF7FBAE896F595E2A5A3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
@@ -517,97 +363,7 @@
 			};
 			name = Debug;
 		};
-		0EEA787E38EC98341CE902B950D0859E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA385F669418D4BA0538BD8CC3F76EC8 /* Pods-Soundlinks_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Soundlinks_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Soundlinks_Tests/Pods-Soundlinks_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Soundlinks_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		150746CAFB092CAC82B9EEC3C06FC2D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64A354FDC53DEE7567358E83B46F8E24 /* Pods-Soundlinks_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Soundlinks_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Soundlinks_Example/Pods-Soundlinks_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Soundlinks_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1DE0442352D0FD3C34040EE3EEABECA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3128C7AF0A5015CC981D57C794DC104 /* Pods-Soundlinks_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Soundlinks_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Soundlinks_Example/Pods-Soundlinks_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Soundlinks_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3B8D7D332D36FE1BCD178B393826226C /* Release */ = {
+		3498E7F6004D984E3EA67352D62DD002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F12419F46865CF1EBFAEBC5711E2E4B6 /* Pods-Soundlinks_Tests.release.xcconfig */;
 			buildSettings = {
@@ -637,9 +393,9 @@
 			};
 			name = Release;
 		};
-		5306D50F124B3CFFD214A3393AE98831 /* Debug */ = {
+		D5AAFB30914CA90D20E5D62FBB099A68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5839D69F3F378D5900874162B44E5C1B /* Soundlinks.xcconfig */;
+			baseConfigurationReference = 64A354FDC53DEE7567358E83B46F8E24 /* Pods-Soundlinks_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -648,41 +404,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Soundlinks/Soundlinks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Soundlinks/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Soundlinks_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Soundlinks/Soundlinks.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Soundlinks;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C2AD6CF96FBFD8B0E6F88D86D17D67E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5839D69F3F378D5900874162B44E5C1B /* Soundlinks.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Soundlinks/Soundlinks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Soundlinks/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Soundlinks/Soundlinks.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Soundlinks_Example/Pods-Soundlinks_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Soundlinks;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Soundlinks_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,14 +423,74 @@
 			};
 			name = Release;
 		};
+		F0D3083E92945D830ED2D7FA8E739B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA385F669418D4BA0538BD8CC3F76EC8 /* Pods-Soundlinks_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Soundlinks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Soundlinks_Tests/Pods-Soundlinks_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Soundlinks_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC2927158553B9ADD4A4FB33730A0CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3128C7AF0A5015CC981D57C794DC104 /* Pods-Soundlinks_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Soundlinks_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Soundlinks_Example/Pods-Soundlinks_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Soundlinks_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27E29BB83E1A2BE88E967FBD51E2B8E4 /* Build configuration list for PBXNativeTarget "Soundlinks" */ = {
+		01B35CB92F98A0E427C7A62C4AEE4B01 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5306D50F124B3CFFD214A3393AE98831 /* Debug */,
-				C2AD6CF96FBFD8B0E6F88D86D17D67E9 /* Release */,
+				FC2927158553B9ADD4A4FB33730A0CC5 /* Debug */,
+				D5AAFB30914CA90D20E5D62FBB099A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -712,20 +504,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		568A43AA52567B00DD7369E14812DC28 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Tests" */ = {
+		B70FE0F867133B34912C617E05287FD3 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EEA787E38EC98341CE902B950D0859E /* Debug */,
-				3B8D7D332D36FE1BCD178B393826226C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D669D330E745A7F21C9F566D1B81B6D2 /* Build configuration list for PBXNativeTarget "Pods-Soundlinks_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DE0442352D0FD3C34040EE3EEABECA2 /* Debug */,
-				150746CAFB092CAC82B9EEC3C06FC2D0 /* Release */,
+				F0D3083E92945D830ED2D7FA8E739B70 /* Debug */,
+				3498E7F6004D984E3EA67352D62DD002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

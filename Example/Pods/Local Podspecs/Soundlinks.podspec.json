@@ -16,8 +16,12 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*.{h,m,mm}",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "source_files": "Pod/Classes/**/Soundlinks.h",
+  "public_header_files": "Pod/Classes/**/Soundlinks.h",
+  "preserve_paths": "Pod/Classes/**/libSoundlinks.a",
+  "ios": {
+    "vendored_libraries": "Pod/Classes/**/libSoundlinks.a"
+  },
   "frameworks": [
     "Foundation",
     "QuartzCore",

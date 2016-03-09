@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Soundlinks: df7134fe0d054f4e02fa7290aac65e091a8ecfa7
+  Soundlinks: 287036ef24bf221e3e85d7fa6e34364ecd87bc11
 
 COCOAPODS: 0.39.0

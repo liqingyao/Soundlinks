@@ -14,7 +14,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [Soundlinks setAppID:@"" andEventId:@""];
+    
+    // Init Soundlinks with AppID and EventId
+    [Soundlinks setAppID:@"appid" andEventId:@"eventid"];
+    
     return YES;
 }
 
