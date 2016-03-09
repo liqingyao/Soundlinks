@@ -28,6 +28,7 @@
 @property (nonatomic, weak) id<SoundlinksDelegate> delegate;
 
 + (void)setAppID:(NSString *)appid andEventId:(NSString *)eventid;
++ (void)setDelegate:(id<SoundlinksDelegate>)delegate;
 + (void)enable;
 + (void)disable;
 

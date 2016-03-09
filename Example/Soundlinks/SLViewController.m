@@ -11,8 +11,6 @@
 
 @interface SLViewController () <SoundlinksDelegate>
 
-@property (strong,nonatomic) Soundlinks *soundlinks;
-
 @end
 
 @implementation SLViewController
@@ -20,14 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
- 
-    // Init Soundlinks instance with appid, eventid
-    // Set delegate
-    self.soundlinks = [[Soundlinks alloc] initWithAppid:@"qingting2016" andEventid:@"qingting-huodong"];
-    self.soundlinks.delegate = self;
     
     // Start Soundlinks by calling startListeningContents
-    [self.soundlinks enable];
+    [Soundlinks setDelegate:self];
+    [Soundlinks enable];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,7 +29,7 @@
     [super didReceiveMemoryWarning];
     
     // Stop Soundlinks by call stopListeningContents
-    [self.soundlinks disable];
+    [Soundlinks disable];
 }
 
 // Soundlinks callback when has listened some contents

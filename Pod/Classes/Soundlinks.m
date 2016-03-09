@@ -52,6 +52,11 @@ static int bufferCounter = 0;
     [Soundlinks sharedInstance].eventid = eventid;
 }
 
++ (void)setDelegate:(id<SoundlinksDelegate>)delegate {
+    
+    [Soundlinks sharedInstance].delegate = delegate;
+}
+
 + (void)enable {
     
     [[Soundlinks sharedInstance].microphone startFetchingAudio];

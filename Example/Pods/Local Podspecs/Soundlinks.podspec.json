@@ -1,6 +1,6 @@
 {
   "name": "Soundlinks",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "Soundlinks SDK",
   "description": "Soundlinks SDK provides APIs for parsing contents from audios which are carried inaudible information.",
   "homepage": "https://github.com/liqingyao/Soundlinks",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "/Users/liqingyao/Documents/Bitbucket/Soundlinks",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "7.0"

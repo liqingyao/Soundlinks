@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Soundlinks"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "Soundlinks SDK"
 
 # This description is used to generate tags and improve search results.
