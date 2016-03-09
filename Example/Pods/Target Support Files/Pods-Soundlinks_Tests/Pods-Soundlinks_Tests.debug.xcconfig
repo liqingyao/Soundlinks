@@ -1,8 +1,7 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Soundlinks"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Pod/Classes"
 OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Soundlinks"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Soundlinks" -framework "AVFoundation" -framework "AudioToolbox" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "AudioToolbox" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
 PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Soundlinks_Tests
 PODS_ROOT = ${SRCROOT}/Pods

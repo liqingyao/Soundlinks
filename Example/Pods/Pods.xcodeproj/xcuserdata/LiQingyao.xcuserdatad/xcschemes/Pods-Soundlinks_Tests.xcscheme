@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D28986B99399D60DD4F05BB1'
+               BlueprintIdentifier = '34A453DBB4CFE791DFA6EB33'
                BlueprintName = 'Pods-Soundlinks_Tests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Soundlinks_Tests.framework'>

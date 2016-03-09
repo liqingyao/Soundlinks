@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
 # For Library
   s.source_files = 'Pod/Classes/Soundlinks.h'
   s.public_header_files = 'Pod/Classes/Soundlinks.h'
-  s.preserve_paths = 'Pod/Classes/libSoundlinks.a'
-  s.ios.vendored_library = 'Pod/Classes/libSoundlinks.a'
+  s.preserve_paths = 'Frameworks/libSoundlinks.a'
+  s.ios.vendored_library = 'Frameworks/libSoundlinks.a'
 
   s.frameworks = 'Foundation', 'QuartzCore', 'AudioToolbox', 'AVFoundation', 'UIKit'
 
