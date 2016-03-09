@@ -19,7 +19,13 @@ In `AppDelegate` init Soundlinks with Appid and Eventid.
 ```objectivec
 #import "Soundlinks.h"
 
-[Soundlinks setAppID:@"appid" andEventId:@"eventid"];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    // Init Soundlinks with AppID and EventId
+    [Soundlinks setAppID:@"appid" andEventId:@"eventid"];
+
+    return YES;
+}
 ```
 
 #### Start Soundlinks
