@@ -64,8 +64,10 @@ When Soundlinks has listened some contents then callback is called. The returned
 ```objectivec
 - (void)soundlinks:(Soundlinks *)soundlinks listenContents:(NSArray *)contentArray {
     for (SLContent *content in contentArray) {
-        NSLog(@"Succeed Get Content: %@ \n %@ \n %@ \n", content.title, content.url, content.image);
-        // To do with the content
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"Succeed Get Content: %@ \n %@ \n %@ \n", content.title, content.url, content.image);
+            // To do with the content
+        });
     }
 }
 ```
